@@ -3,7 +3,7 @@ import logo from './../assets/Images/logo.png'
 import {HiHome,HiMagnifyingGlass,HiStar,HiPlayCircle,HiTv, HiOutlineAdjustmentsVertical} from 'react-icons/hi2'
 import { BsThreeDotsVertical } from "react-icons/bs";
 import HeaderItem from './HeaderItem'
-import user from '../assets/Images/userimg.jpg'
+import user from './../assets/Images/userimg.jpg'
 const Header = () => {
 
   const menu=[
