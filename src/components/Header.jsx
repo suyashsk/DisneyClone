@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from './../assets/Images/logo.png'
+import logo from '../assets/Images/logo.png'
 import {HiHome,HiMagnifyingGlass,HiStar,HiPlayCircle,HiTv, HiOutlineAdjustmentsVertical} from 'react-icons/hi2'
 import { BsThreeDotsVertical } from "react-icons/bs";
 import HeaderItem from './HeaderItem'
