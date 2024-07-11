@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../assets/Images/disney.svg'
+import logo from '../assets/Images/logo.png'
 import {HiHome,HiMagnifyingGlass,HiStar,HiPlayCircle,HiTv, HiOutlineAdjustmentsVertical} from 'react-icons/hi2'
 import { BsThreeDotsVertical } from "react-icons/bs";
 import HeaderItem from './HeaderItem'
@@ -34,7 +34,7 @@ const Header = () => {
     <div className='flex items-center justify-between p-5'>
       <div className='flex gap-8 items-center'>
       <img src={logo} alt='Disney+hotstar' 
-      className='w-[80px] md:w-[100px] object-cover'/>
+      className='w-[80px] md:w-[120px] object-cover'/>
       <div className='hidden md:flex gap-8'>
       {
         menu.map((item) =>{
